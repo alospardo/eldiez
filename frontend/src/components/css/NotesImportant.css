@@ -1,0 +1,65 @@
+.mycarousel {
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+.mycarousel img {
+    max-height: 350px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.mycarousel h3 {
+    font-family: Anton;
+    background-color: rgba(0,0,0,.4);
+    margin: 0;
+}
+
+.mycarousel span {
+    text-indent:-666em;
+}
+
+.mycarousel p {
+    background-color: rgba(0,0,0,.4);
+}
+
+@media screen and (min-width:320px) and (max-width:360px) {
+    
+    .mycarousel{
+        width: 100%;
+    }
+    
+    .mycarousel img {
+        height: 200px;
+        object-fit: cover;
+        object-position: center top;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:407px){
+    
+    .mycarousel{
+        width: 100%;
+    }
+
+    .mycarousel img {
+        height: 250px;
+        object-fit: cover;
+        object-position: center top;
+    }
+    }
+
+    @media screen and (min-width:408px) and (max-width:717px){
+        
+        .mycarousel{
+            width: 100%;
+        }
+
+        .mycarousel img {
+            max-height: 190px;
+            object-fit: cover;
+            object-position: center top;
+        }
+        }

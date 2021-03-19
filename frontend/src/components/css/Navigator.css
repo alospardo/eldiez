@@ -1,0 +1,9 @@
+.olxcll img{
+    max-height: 25px;
+    max-width: 25px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
